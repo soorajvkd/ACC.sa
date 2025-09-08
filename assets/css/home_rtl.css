@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+.main-head,
+.sub-head {
+  word-spacing: 2px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "avenir-heavy";
+}
+p {
+  font-family: "avenir-book";
+}
+@font-face {
+  font-family: "avenir-book";
+  src: url("../fonts/avenir-book-regular-webfont.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "avenir-medium";
+  src: url("../fonts/avenir-mediumNova-Bold.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "avenir-book";
+  src: url("../fonts/Avenir\ Book.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "avenir-regular";
+  src: url("../fonts/Avenir\ Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "avenir-heavy";
+  src: url("../fonts/Avenir\ Heavy.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "avenir-medium";
+  src: url("../fonts/Avenir\ Medium.ttf");
+  font-weight: normal;
+}
+body.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: "avenir-regular";
+}
+header .right .lists .enquiry {
+  margin-right: unset;
+  margin-left: 10px;
+}
+/* .rtl header .right .lists {
+  gap: 30px;
+} */
+/* .rtl header .right .lists a {
+  margin-right: unset;
+  margin-left: 28px;
+} */
+.rtl header .right .lists a {
+  font-family: "avenir-book";
+}
+.rtl header .right .lists .buttons a {
+  margin-left: 0;
+}
+#spotlight .container .contents h1 {
+  font-family: "avenir-heavy";
+}
+#about .top h3 {
+  font-family: "avenir-heavy";
+}
+#about .top p {
+  font-family: "avenir-book";
+}
+.rtl #why-choose .container .box-container .box h3 {
+  text-align: right;
+}
+.rtl #why-choose .container .box-container .box p {
+  text-align: right;
+}
+.rtl footer .container .right .section form .input-container {
+  padding-right: unset;
+  padding-left: 20px;
+}
+.rtl header .right .lists .language {
+  min-width: 100px;
+}
