@@ -231,7 +231,7 @@ header .menu-box {
   display: none;
 }
 .mobile-header {
-  background-color: #12355b;
+  background-color: #000000;
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -278,7 +278,7 @@ header .menu-box {
   padding: 10px 15px;
 }
 .mobile-header .lists .buttons .enquiry {
-  background-color: #f37124;
+  background-color: rgb(213 187 130);
   border-radius: 5px;
   margin-right: 10px;
 }
