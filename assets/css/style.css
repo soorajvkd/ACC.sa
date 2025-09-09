@@ -1265,7 +1265,7 @@ footer .container .social img {
   }
 
   #service .container .box h3 {
-    font-size: 30px;
+    font-size: 20px;
   }
   #why-choose .container p {
     font-size: 16px;
@@ -1283,6 +1283,13 @@ footer .container .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  #service .container h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+#service .container .subhead {
+    font-size: 18px;
+}
 }
 @media screen and (max-width: 480px) {
   .whatsapp-icon {
