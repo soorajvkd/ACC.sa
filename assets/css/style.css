@@ -93,15 +93,7 @@ img {
   display: block;
   object-fit: cover;
 }
-/* Top header */
-/* header {
-  background-color: #12355b;
-  color: #fff;
-  display: flex;
-  justify-content: end;
-  gap: 20px;
-  padding: 10px 0;
-} */
+
 .socials {
   display: flex;
   gap: 10px;
@@ -118,30 +110,6 @@ img {
   padding: 5px;
   z-index: 5;
 }
-/* top header */
-/* .top-header {
-  padding: 10px;
-  background-color: #12355b;
-  color: #fff;
-  display: flex;
-  justify-content: end;
-  gap: 20px;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-  padding-right: 60px;
-}
-.top-header a {
-  cursor: pointer;
-}
-.top-header .socials img {
-  height: 20px;
-  width: 20px;
-  object-fit: contain;
-} */
-/* navbar */
 header {
   position: fixed;
   top:0px;
@@ -150,15 +118,6 @@ header {
   background-color: #fff;
 }
 header .container {
-  /* padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 44px;
-  border: 1px solid black;
-  width: 100%; */
-  /* width: 90%; */
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -168,7 +127,7 @@ header .container {
 }
 header .left .logo-container {
   height: 80px;
-  width: 180px;
+  width: 150px;
 }
 header .logo-container .img{
 object-fit: contain;
@@ -181,7 +140,6 @@ header .right .lists {
 header .right .lists a {
   color: #000;
   font-size: 18px;
-  /* margin-right: 28px; */
 }
 header .right .lists a .route {
   display: flex;
@@ -191,9 +149,7 @@ header .right .lists a .route {
 header .right .lists .buttons {
   display: flex;
 }
-/* header .right .lists .buttons a {
-  margin-right: 0;
-} */
+
 header .right .lists button {
   font-family: "nexa-bold";
   color: #fff;
