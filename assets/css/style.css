@@ -384,7 +384,7 @@ header .language .language-dropdown-container .section a {
   border-radius: 5px;
 }
 header .language .language-dropdown-container .section a:hover {
-  background-color: #f37124;
+  background-color: rgb(213 187 130);
   color: #fff;
 }
 header .dropdown-container.active {
@@ -539,7 +539,7 @@ header .lists a.active-route {
   display: flex;
   gap: 10px;
   align-items: center;
-  background-color: #f37124;
+  background-color: rgb(213 187 130);
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -1033,53 +1033,100 @@ font-family: "nexa-bold";
   color: #000;
   text-decoration: underline;
 }
-/* footer */
-footer {
-  margin-top: 30px;
+
+
+/* Footer Styles */
+.footer {
+  background: rgb(213 187 130);
+  color: #fff;
+  padding: 40px 20px 15px 20px;
+  font-family: Arial, sans-serif;
 }
-footer .container {
-  padding: 25px 0 40px 0;
-  display: grid;
-  justify-items: center;
-  row-gap: 20px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-}
-footer .container .logo {
+
+.footer-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+  /* gap: 30px; */
+  /* margin: auto; */
+
 }
-footer .container .logo .left {
-  height: 90px;
-  width: 90px;
+.footer-logo {
+  width: 150px;
+  height: 100px;
 }
-footer .container .logo .right {
-  height: 90px;
+.footer-logo img {
+ width: 100%;
+ height: 100%;
+ display: block;
+ object-fit: contain;
 }
-footer .container .logo img {
-  object-fit: contain;
-}
-footer .container .routes {
-  display: flex;
-  gap: 30px;
-}
-footer .container .routes li a {
+
+.footer-logo p {
+  font-size: 16px;
   color: #000;
 }
-footer .container .social {
-  display: flex;
-  gap: 10px;
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
 }
-footer .container .social li {
-  padding: 10px;
-  border-radius: 50%;
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
 }
-footer .container .social img {
-  object-fit: contain;
-  filter: invert(100%);
-  height: 25px;
-  width: 25px;
+
+.footer-links ul li {
+  margin-bottom: 15px;
 }
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+  font-size: 16px;
+}
+
+.footer-links ul li a:hover {
+  color: #fff;
+}
+
+.footer-contact p {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #000;
+  /* text-align: center; */
+}
+
+.footer-social a {
+  color: #000;
+  margin-right: 19px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid #2d3e50;
+  font-size: 14px;
+  color: #000;
+}
+
+
 
 /* contact page */
 #contact .container {
